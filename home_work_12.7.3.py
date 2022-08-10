@@ -9,6 +9,6 @@ deposit = [int(money / 100 * values[0]), int(money / 100 * values[1]), int(money
 
 deposit_max = int(max(deposit)) #определяем максимальную сумму
 
-print(deposit) #выводим все значения
+print('deposit = ' + str(deposit)) #выводим все значения
 
 print('Максимальная сумма, которую вы можете заработать — ' + str(deposit_max)) #выводим максимальную сумму
