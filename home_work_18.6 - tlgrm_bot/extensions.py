@@ -7,7 +7,7 @@ class APIExeptions(Exception):
 
 class CurrencyConverter:
     @staticmethod
-    def convert(quote: str, base: str, amount: float):
+    def convert(quote: str, base: str, amount: str):
         if quote == base:
             raise APIExeptions(f'Невозможно перевести одинаковые валюты')
 
